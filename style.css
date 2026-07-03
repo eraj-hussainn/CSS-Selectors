@@ -1,0 +1,61 @@
+@font-face{
+    font-family: "Merienda";
+    src: url("Merienda/Merienda-VariableFont_wght.ttf") format("truetype");
+}
+/* Universal Selector */
+*{
+    font-family: "Merienda";
+} 
+/* type selector */
+h1{
+    color: rgb(172, 53, 73);
+}
+
+/* class selector */
+
+.text{
+    text-align: center;
+}
+
+/* Id SeLector */
+
+#special{
+    text-decoration: none;
+}
+
+/* chILd SeLector */
+
+li> a:hover, img:hover{
+     box-shadow:
+    0 0 8px #ff00ff,
+    0 0 18px #d946ef,
+    0 0 35px #9333ea,
+    0 0 60px #7e22ce;
+  cursor: pointer;
+}
+
+li> a{
+    color: aqua;
+}
+
+/* li> img{
+    !important
+} */
+
+/* deScendant SeLector*/
+
+div p{
+    color: #7e22ce;
+}
+                         
+/* adjacent SIBLIng SeLector */
+
+h1+h2{
+    text-transform: uppercase;
+}
+
+/* generaL SIBLIng SeLector */
+
+h1~h4{
+    color: #ff00ff;
+}
