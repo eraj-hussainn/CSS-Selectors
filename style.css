@@ -23,7 +23,7 @@ h1{
     text-decoration: none;
 }
 
-/* chILd SeLector  target very next child*/
+/* chILd SeLector  target very next childs*/
 
 li>a:hover, img:hover{
      box-shadow:
