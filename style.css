@@ -23,9 +23,9 @@ h1{
     text-decoration: none;
 }
 
-/* chILd SeLector */
+/* chILd SeLector  target very next child*/
 
-li> a:hover, img:hover{
+li>a:hover, img:hover{
      box-shadow:
     0 0 8px #ff00ff,
     0 0 18px #d946ef,
@@ -42,19 +42,19 @@ li> a{
     !important
 } */
 
-/* deScendant SeLector*/
+/* deScendant SeLector target nested level of child*/
 
 div p{
     color: #7e22ce;
 }
                          
-/* adjacent SIBLIng SeLector */
+/* adjacent SIBLIng SeLector target very next sibling*/
 
 h1+h2{
     text-transform: uppercase;
 }
 
-/* generaL SIBLIng SeLector */
+/* generaL SIBLIng SeLector target any sibling that are in same parent element*/
 
 h1~h4{
     color: #ff00ff;
